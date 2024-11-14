@@ -170,9 +170,9 @@ onkeydown = onkeyup = (e) => {
                     speedY = -1 * increment;
                 }
             } else if(viewy == 0) {
-                speedZ = -1 * increment;
-            } else if(viewy == 2) {
                 speedZ = 1 * increment;
+            } else if(viewy == 2) {
+                speedZ = -1 * increment;
             }
                 keys[87] = 0;
         }
@@ -193,9 +193,9 @@ onkeydown = onkeyup = (e) => {
                 speedY = 1 * increment;
             }
         } else if(viewy == 0) {
-            speedZ = 1 * increment;
-        } else if(viewy == 2) {
             speedZ = -1 * increment;
+        } else if(viewy == 2) {
+            speedZ = 1 * increment;
         }
 		keys[83] = 0;
 	}
